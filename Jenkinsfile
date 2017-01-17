@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '/home/hello.py'
+        sh "python -c 'print "Hello World!"'"
       }
     }
   }
